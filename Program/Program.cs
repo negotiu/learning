@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Name of the character:");
+string a;
+a = Console.ReadLine();
+Console.WriteLine("The age of the man:");
+string b;
+b = Console.ReadLine();
+Console.WriteLine("There was a men named " + a + ".");
+Console.WriteLine("He was " + b + " years old.");
+Console.WriteLine("He really liked the name " + a + ".");
+Console.WriteLine("But didn'd like being " + b + ".");
