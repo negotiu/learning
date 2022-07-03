@@ -1,10 +1,18 @@
-﻿Console.WriteLine("Name of the character:");
-string a;
-a = Console.ReadLine();
-Console.WriteLine("The age of the man:");
-string b;
-b = Console.ReadLine();
-Console.WriteLine("There was a men named " + a + ".");
-Console.WriteLine("He was " + b + " years old.");
-Console.WriteLine("He really liked the name " + a + ".");
-Console.WriteLine("But didn'd like being " + b + ".");
+﻿// roses are {color}
+// {plural} are blue
+// i love {celebrity}
+
+Console.WriteLine("roses are [color], \n[plurar noun] are blue, \ni love [celebrity]");
+Thread.Sleep(1000);
+Console.Write("input color: ");
+string color = Console.ReadLine();
+Console.Write("input plurar noun: ");
+string noun = Console.ReadLine();
+Console.Write("input celebrity: ");
+string celeb = Console.ReadLine();
+
+Thread.Sleep(2000);
+Console.WriteLine("WAIT!");
+Thread.Sleep(6000);
+
+Console.WriteLine("Roses are " + color + ",\n" + noun + " are blue,\nI love " + celeb + ".") ;
